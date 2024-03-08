@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+    /* cursor: none; */
+}
+body{
+    background-color: #fff9eb;
+}
+
+nav a{
+    text-decoration: none;
+    color: #0D0630;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-bottom: 2px solid lightgray;
+}
+
+.nav-items{
+    display: flex;
+    gap: 44px;
+}
+.nav-name{
+    font-size: 34px;
+}
+.nav-items a{
+    transition: color 0.2s ease;
+}
+
+.nav-items a:hover,
+.nav-items a.selected{
+    color: #0075ac;
+    text-decoration: underline;
+}
+
+main{
+    /* margin-top: 100px; */
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 90px);
+}
+.info{
+    width: 50%;
+}
+.info h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.info p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.resume-btn{
+    padding: 10px 20px;
+    background-color: #0D0630;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    transition: background 0.3s ease;
+}
+.resume-btn:hover{
+    background-color: #0075ac;;
+}
+.desc-img img{
+    width: 400px;
+    border-radius: 25%;
+}
+.recent{
+    
+    padding: 40px 120px;
+}
+
+.recent .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.recent .header h4{
+    font-weight: 700;
+    font-size: 26px;
+}
+.recent .header a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0D0630;
+}
+
+.recent .posts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.post-content{
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    width: 45%;
+    border: 1px solid lightgray;
+    border-radius: 18px;
+}
+.details{
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.post-content h3{
+    color: #0075ac;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.post-content p{
+    text-align: justify;
+}
