@@ -156,6 +156,9 @@ main{
 .seperator,.project-container{
     padding: 20px 120px;
 }
+.project-container-projectpage{
+    padding: 40px 120px;
+}
 .seperator{
     display: flex;
     align-items: center;
@@ -169,6 +172,10 @@ main{
 }
 
 .project-container img{
+    width: 320px;
+    border-radius: 12px;
+}
+.project-container-projectpage img{
     width: 320px;
     border-radius: 12px;
 }
@@ -208,7 +215,6 @@ main{
 }
 .socials{
     border-top: 2px solid lightgray;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -346,4 +352,163 @@ main{
 }
 .blog-share-icons:hover{
     fill: #0075ac;
+}
+
+/* Responsive queries */
+
+@media screen and (max-width:1400px) {
+    nav{
+        padding: 20px 80px;
+        font-size: 18px;
+    }
+    main{
+        padding: 0px 80px;
+    }
+    .info h1{
+        font-size: 36px;
+    }
+    .seperator,.project-container,.project-container-projectpage{
+        padding: 20px 80px;
+    }
+    .recent{
+        padding: 40px 80px;
+    }
+}
+@media screen and (max-width:1200px) {
+    nav{
+        padding: 20px 40px;
+        font-size: 16px;
+    }
+    nav .nav-name{
+        font-size: 20px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .info{
+        width: 60%;
+        text-align: justify;
+    }
+    .info h1{
+        font-size: 36px;
+    }
+    .info p{
+        font-size: 16px;
+    }
+    .desc-img img{
+        width: 300px;
+        border-radius: 25%;
+    }
+    main{
+        padding: 0px 40px;
+    }
+    .seperator,.project-container,.project-container-projectpage{
+        padding: 20px 40px;
+    }
+    .recent{
+        padding: 40px 40px;
+    }
+    .project-desc p{
+        width: 100%;
+        text-align: justify                      ;
+    }
+}
+@media screen and (max-width:936px) {
+    nav{
+        padding: 20px 20px;
+        font-size: 16px;
+    }
+    nav .nav-name{
+        font-size: 16px;
+    }
+    .nav-items{
+        gap: 20px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .info{
+        width: 60%;
+        text-align: justify;
+    }
+    .info h1{
+        font-size: 26px;
+    }
+    .info p{
+        font-size: 14px;
+    }
+    .desc-img img{
+        width: 250px;
+        border-radius: 40%;
+    }
+    main{
+        padding: 0px 20px;
+    }
+    .seperator,.project-container,.project-container-projectpage{
+        padding: 20px 20px;
+    }
+    .recent{
+        padding: 40px 20px;
+    }
+    .project-desc p{
+        width: 100%;
+        text-align: justify                      ;
+    }
+    .resume-btn{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .post-content h3,.blog-content h3{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .details{
+        font-size: 16px;
+    }
+    .project-content{
+        flex-direction: column;
+    }
+    .project-content img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:680px){
+    .logo,.nav-name{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+        position: static;
+    }
+    main{               
+        margin: 10px 0px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .info{
+        width: 80%;
+    }
+    .info h1{
+        font-size: 24px;
+    }
+    .desc-img{
+        width: 80%;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .desc-img img{
+        width: 80%;
+        border-radius: 50%;
+    }
+    .posts{
+        flex-direction: column;
+    }
+    .post-content{
+        width: 100%;
+    }
+    main{
+        border: none;
+    }
 }
