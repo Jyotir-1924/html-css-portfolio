@@ -62,6 +62,7 @@ nav{
 
 main{
     padding: 0 120px;
+    border-bottom: 2px solid lightgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,7 +104,7 @@ main{
     border-radius: 25%;
 }
 .recent{
-    
+    border-bottom: 2px solid lightgray;
     padding: 40px 120px;
 }
 
@@ -153,7 +154,7 @@ main{
 }
 
 .seperator,.project-container{
-    padding: 40px 120px;
+    padding: 20px 120px;
 }
 .seperator{
     display: flex;
@@ -206,6 +207,8 @@ main{
     width: 90%;
 }
 .socials{
+    border-top: 2px solid lightgray;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,6 +223,7 @@ main{
 }
 
 .hire-btn {
+    margin-top: 30px;
     position: relative;
     font-weight: 500;
     font-size: 14px;
