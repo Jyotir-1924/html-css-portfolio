@@ -496,7 +496,7 @@ main{
         position: static;
     }
     main{               
-        margin: 10px 0px;
+        margin: 5px 0px;
         padding: 10px;
         flex-direction: column;
     }
