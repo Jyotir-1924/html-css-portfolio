@@ -12,7 +12,7 @@
     color: white;
 }
 body{
-    background-color: #fff9eb;
+    background-color: #fffefa;
 }
 
 nav a{
@@ -31,10 +31,10 @@ nav{
     border-bottom: 2px solid lightgray;
     position: fixed;
     z-index: 10;
-    background-color: #fff9eb;
+    background-color: #fffefa;
 }
 .logo{
-    height: 70px;
+    height: 60px;
     border-radius: 50%;
 }
 
@@ -288,7 +288,7 @@ main{
     color: #0D0630;
 }
 .project-title a{
-    text-decoration: none;
+    text-decoration: underline  ;
     font-size: 30px;
     font-weight: 700;
     color: #0D0630;
@@ -306,7 +306,7 @@ main{
 }
 .blog-title a{
     margin-bottom: 20px;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 30px;
     font-weight: 600;
     color: #0D0630;
@@ -352,6 +352,21 @@ main{
 }
 .blog-share-icons:hover{
     fill: #0075ac;
+}
+.linked-in:hover{
+    fill: #0075ac;
+}
+.gmail:hover{
+    fill: #d60000;
+}
+.github:hover{
+    fill: #000000;
+}
+.instagram:hover{
+    fill: #ef63ff;
+}
+.whatsapp:hover{
+    fill: #00ac3c;
 }
 
 /* Responsive queries */
@@ -452,7 +467,7 @@ main{
     }
     .project-desc p{
         width: 100%;
-        text-align: justify                      ;
+        text-align: justify;
     }
     .resume-btn{
         padding: 10px 10px;
@@ -510,5 +525,6 @@ main{
     }
     main{
         border: none;
+        margin-bottom: 150px;
     }
 }
